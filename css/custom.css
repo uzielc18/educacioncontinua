@@ -13,7 +13,17 @@ body{
 	height: 100%;
 	font-family: 'Poppins', sans-serif;
 }
-
+.iframe-responsive {
+	width: 100%; /* Establece el ancho del iframe al 100% del contenedor */
+	height: 100vh; /* Establece la altura del iframe al 100% del viewport */
+	max-height: 400px; /* Establece la altura máxima */
+	border: none; /* Elimina el borde del iframe si no es necesario */
+}
+.linea-horizontal {
+	width:100%;
+	height: 4px; /* Grosor de la línea */
+	background-image: linear-gradient(to right, white, rgba(253, 253, 253, 0.16)); /* Degradado de blanco a azul oscuro */
+}
 h1,
 h2,
 h3,
